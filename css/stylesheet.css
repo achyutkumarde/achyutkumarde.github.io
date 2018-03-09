@@ -1,0 +1,51 @@
+
+body{
+    font-size: 20px;
+    font-family: sans-serif;
+    display: flex;
+    flex-flow: nowrap;
+    
+}
+header{
+    width: 100%;
+    background: aqua;
+}
+aside{
+    margin: 0% 2%;
+    background: silver;
+}   
+.main{
+    background: silver;
+    padding: 2%;
+    flex:1;
+}
+h1{
+    margin-bottom: 0;}
+ul{
+    list-style-type: none;
+}
+ul.boxstyle li{
+    background: gray;
+    padding: 3%;
+    margin: 1.5%;
+    border-radius: 5%;
+    display: inline-block; 
+    transition: background 0.4s;
+    box-shadow: slateblue 5px 5px 5px;
+    cursor: pointer;
+}
+ul.boxstyle li:hover{
+    background:whitesmoke;
+}
+img{
+    max-width: 250px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 10px khaki;
+}
+input{
+    display: block;
+}
+.tagline{
+    font-size: 0.7em;
+    margin-top: 0;
+}
