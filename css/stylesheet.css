@@ -134,11 +134,7 @@ ul.boxstyle li:hover img{
 @media screen and (max-width: 900px) {
     body{
         flex-direction: column-reverse;
-<<<<<<< HEAD
         font-size: 16px;
-=======
-        font-size: 12px;
->>>>>>> 9b35f4fea82fa2394ea651eb039bd9d90c66cd25
     }
     li{
         height: 75px;
@@ -154,12 +150,9 @@ ul.boxstyle li:hover img{
     .hoveranimation{
         top:-90px;
     }
-<<<<<<< HEAD
     .profilepic{
         width: 150px;
         height: 150px;
         float: left;
     }
-=======
->>>>>>> 9b35f4fea82fa2394ea651eb039bd9d90c66cd25
 }

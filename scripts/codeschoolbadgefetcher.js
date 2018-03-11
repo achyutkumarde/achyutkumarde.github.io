@@ -21,15 +21,10 @@ $(function() {
     
     }
     });
-    
+
     $(".heading").on("click",function(){
-        if($(this).hasClass("hidden")){
-            $(".externaldata").addClass("hidden");
-            $(this).removeClass("hidden");
-        }else{
-            $(".externaldata").addClass("hidden");
-            $(this).addClass("hidden");
-        }
+        
+        $(this).toggleClass("hidden");
     });
         
     
