@@ -1,4 +1,7 @@
-/*images used from https://pixabay.com (Free for commercial use, No attribution required)*/
+/*
+images used from https://pixabay.com (Free for commercial use, No attribution required)
+autoprefixed at https://autoprefixer.github.io/
+*/
 
 body,header,aside,ul,li,h1,h2,p,a,div,p{
     margin:0;
@@ -10,6 +13,8 @@ body,header,aside,ul,li,h1,h2,p,a,div,p{
 body{
     font-size: 20px;
     font-family: sans-serif;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;  
     color: white;
     background-image: url("../img/background.jpg");
@@ -20,7 +25,9 @@ body{
 }
 
 header{
-    flex:1;
+    -webkit-box-flex:1;
+        -ms-flex:1;
+            flex:1;
     margin: 1% 0 0 0;
 }
 aside{
@@ -55,6 +62,8 @@ ul.boxstyle li{
     margin: 0.5% 4%;
     border-radius: 5%;
     display: inline-block; 
+    -webkit-transition: all 0.4s; 
+    -o-transition: all 0.4s; 
     transition: all 0.4s;
     /*cursor: pointer;*/
     max-height: 150px;   
@@ -67,7 +76,8 @@ aside img{
     margin: 5%;
     max-width: 250px;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px 2px black;
+    -webkit-box-shadow: 0px 0px 10px 2px black;
+            box-shadow: 0px 0px 10px 2px black;
 }
 input{
     display: block;
@@ -87,22 +97,32 @@ input{
     top:-165px;
     text-align: center; 
     font-weight: bold;
-    transform: scale(0);
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
+    -webkit-transition:all 0.3s;
+    -o-transition:all 0.3s;
     transition:all 0.3s;  
     display: table-cell;
     vertical-align: middle;
 }
 
 ul.boxstyle li:hover .hoveranimation{
-    transform: scale(1);
+    -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+            transform: scale(1);
 }
 
 ul.boxstyle li img{  
+    -webkit-transition: all 0.3s;  
+    -o-transition: all 0.3s;  
     transition: all 0.3s;
 }
 
 ul.boxstyle li:hover img{
-    transform: scale(0);
+    -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+            transform: scale(0);
 }
 
 .hidden + div{
@@ -134,7 +154,10 @@ ul.boxstyle li:hover img{
 /* code for mobile screens*/
 @media screen and (max-width: 900px) {
     body{
-        flex-direction: column-reverse;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: reverse;
+            -ms-flex-direction: column-reverse;
+                flex-direction: column-reverse;
         font-size: 16px;
     }
     li{
