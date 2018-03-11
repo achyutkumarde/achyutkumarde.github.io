@@ -23,11 +23,8 @@ header{
     flex:1;
     margin: 1% 0 0 0;
 }
-
 aside{
     margin: 0% 0%;
-    padding-left: 2%;
-    padding-right: 1%;
     z-index: 2;
     width:30%;
     background: rgba(0, 0, 0, 0.2)
@@ -50,10 +47,9 @@ ul{
 }
 section{
     margin: 0;
-    padding:0%;
+    padding:2%;
     border-top: skyblue 1px solid;
 }
-
 
 ul.boxstyle li{
     margin: 0.5% 4%;
@@ -64,7 +60,6 @@ ul.boxstyle li{
     max-height: 150px;   
     /*max-height: 100px; */   
     overflow: hidden;  
-    
 }
 
 
@@ -72,7 +67,7 @@ aside img{
     margin: 5%;
     max-width: 250px;
     border-radius: 50%;
-    box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.4);
+    box-shadow: 0px 0px 10px 2px black;
 }
 input{
     display: block;
@@ -139,7 +134,11 @@ ul.boxstyle li:hover img{
 @media screen and (max-width: 900px) {
     body{
         flex-direction: column-reverse;
+<<<<<<< HEAD
         font-size: 16px;
+=======
+        font-size: 12px;
+>>>>>>> 9b35f4fea82fa2394ea651eb039bd9d90c66cd25
     }
     li{
         height: 75px;
@@ -155,9 +154,12 @@ ul.boxstyle li:hover img{
     .hoveranimation{
         top:-90px;
     }
+<<<<<<< HEAD
     .profilepic{
         width: 150px;
         height: 150px;
         float: left;
     }
+=======
+>>>>>>> 9b35f4fea82fa2394ea651eb039bd9d90c66cd25
 }
