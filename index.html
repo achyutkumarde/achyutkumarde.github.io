@@ -1,86 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Achyut Kumar De">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Achyut De</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <title>Achyut's Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/particles.css">
 </head>
+
 <body>
-    <section id="skillsection"><!--skill section-->
-        <div id="signature">
-            <h1 class="skills">Achyut De</h1>
-            <p class="skills" id="tagline">Coder, Problem Solver, Nature lover</p>
+
+    <div id="contactButton">
+        <p>Say Hi!</p>
+        <img id="mypic" src="img/me.png" alt="my picture">
+
+        <div id="connectform">
+            <p>I am available for hire! If interested please leave a message</p>
+            <input id="name" type="text" placeholder="Name">
+            <input id="email" type="email" placeholder="E-Mail">
+            <input id="message" type="text" placeholder="Message">
+            <input id="sendMessage" type="button" value="Submit">
         </div>
-        <div class="skills html">
-            <h3>HTML</h3>
-            <span class="progress"><span class="progressbar"></span></span>
-        </div><!--html-->
-        
-        <div class="skills css">
-            <h3>CSS</h3>
-            <span class="progress"><span class="progressbar"></span></span>
-        </div><!--css-->
+    </div>
 
-        <div class="skills javascript">
-            <h3>JavaScript</h3>
-            <span class="progress"><span class="progressbar"></span></span>
-        </div><!--javascript-->
+    <div class="page page01">
+        <p class="seq seq01">Hello there.....</p>
+        <p class="seq seq02">I am
+            <b>Achyut Kumar De</b>
+        </p>
+        <p class="seq seq03">I develop Websites and Andriod apps</p>
+    </div>
+    <!--.page01-->
+    <div class="page page02">
+        <div class="seq seq02">
+            <div class="image">
+                <img src="img/IELTS.jpg" alt="IELTS Seaking App Screenshot">
+            </div>
+            <div class="description">
+                <h2>IELTS Speaking App</h2>
+                <p>
+                    Android IELTS Speaking app for self study.Was the sole developer of the project. The app is currently available on the app
+                    store. Link
+                    <a href="https://play.google.com/store/apps/details?id=com.weebly.achyutde.ieltsspeaking">here.</a>
+                </p>
+            </div>
+        </div>
+        <!--.seq02-->
+        <div class="seq seq03">
+            <div class="image">
+                <img src="img/newssite.jpg" alt="newssite theme Screenshot">
+            </div>
+            <div class="description">
+                <h2>News Site - Theme for Wordpress</h2>
+                <p>
+                    An awesome wordpress theme for news blogs and related websites. Click <a href="https://wordpress.org/themes/news-site/">here</a> to download the latest version from store.  Click
+                    <a
+                        href="http://achyut.xyz/achyut.de/tester87/"> here</a> for a demo site with this theme installed.
+                </p>
+            </div>
+        </div>
+        <!--.seq03-->
 
-        <div class="skills wordpress">
-            <h3>Wordpress</h3>
-            <span class="progress"><span class="progressbar"></span></span>
-        </div><!--wordpress-->
+        <div class="seq seq04">
+            <h2> More to come soon...</h2>
+        </div>
 
-    </section><!-- skillsection -->
 
-    <section id="projectsection">
-        <h2>Projects</h2>
-        <div class="projectcase">
-            <div class="projects widgets">
-                <h3>Widgets</h3>
-                <img src="img/javascript.png" alt="Widgets Project">
-                <p>Project in Progress</p>
-            </div><!--Widgets-->
-            
-            <div class="projects newssite">
-                <h3>News Site</h3>
-                <img src="img/javascript.png" alt="newssite Project">
-                <p>Project in Progress</p>
-            </div><!--newssite-->
-            
-            <div class="projects webofideas">
-                <h3>Web of Ideas</h3>
-                <img src="img/javascript.png" alt="webofideas Project">
-                <p>Project in Progress</p>
-            </div><!--webofideas-->
-        </div><!--projectcase-->
-        <div id="projectbacground"></div>
-        <div id="projectbacground2"></div>
-    </section><!--projectsection-->
+    </div>
+    <!--.page02-->
 
-    <section id="socialsection">
-        <a href="https://github.com/achyutkumarde"><img src="img/github.png" alt="github profile"></a>
-        <a href="https://www.codewars.com/users/achyutde"><img src="https://www.codewars.com/users/achyutde/badges/micro" alt="codewars badge"></a>
-        <a href="https://www.linkedin.com/in/achyutkrde"><img src="img/linkedin.png" alt="linkedin account"></a>
-    </section>
-
-    <section id="aboutmesection">
-        <h4>Chemical Engineer by education. Developed a keen interest in coding while working for a part time project.
-            Since then coding has been my passion, and I have never looked back. <br>
-            I am available for hire. If interested in my profile kindly mail me and I will get back to you at the earliest. 
-            Leave a message here or contact me at <a href="mailto:achyut.de@gmail.com">achyut.de@gmail.com</a></h4>
-        <form action="http://achyut.xyz/achyut.de/portfolio/" method="GET">
-            <input type="text" name="name" placeholder="Your Name">
-            <input type="email" name="email" placeholder="Mail ID">
-            <textarea name="comments" id="comments" placeholder="Your message"></textarea>
-            <input type="submit" value="Submit">
-        </form>
-    </section><!--aboutmesection-->
-
-    <!--<script src="scripts/jquery-3.3.1.min.js"></script>-->
-    <script src="scripts/scripts.js"></script>
+    <div class="page page03">
+        <ul class="seq seq01">
+            <li>
+                HTML
+                <progress value="80" max="100"></progress> 
+            </li>
+            <li>
+                CSS
+                <progress value="75" max="100"></progress> 
+            </li>
+            <li>
+                Javascript / Jquery
+                <progress value="75" max="100"></progress> 
+            </li>
+            <li>
+                Android-SDK
+                <progress value="52" max="100"></progress> 
+            </li>
+            <li>
+                Wordpress
+                <progress value="65" max="100"></progress> 
+            </li>
+        </ul>
+    </div>
+    <!--.page03-->
+    <div id="footer">
+        <ul>
+            <li id="me" class="light">Me</li>
+            <li id="work">My Work</li>
+            <li id="languages">I speak</li>
+        </ul>
+    </div>
+    <div class="modal"></div>
+    <div class="particle-holder">
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+        <div class="particle"></div>
+    </div>
+    <script src="js/jquery3.3.1.js"></script>
+    <script src="js/script.js"></script>
 </body>
+
 </html>
